@@ -5,9 +5,3 @@
  *      Author: jfgois
  */
 
-#ifndef IO_PINS_H_
-#define IO_PINS_H_
-
-
-
-#endif /* IO_PINS_H_ */

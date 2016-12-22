@@ -8,11 +8,3 @@
 #include "spi.h"
 
 
-#ifndef OLED_DISP_LIB_H_
-#define OLED_DISP_LIB_H_
-
-
-
-
-
-#endif /* OLED_DISP_LIB_H_ */

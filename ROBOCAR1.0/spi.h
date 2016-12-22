@@ -8,7 +8,7 @@
 #include"avr/io.h"
 
 
-#ifndef SPI_H_
+
 #define SPI_H_
 
 //define the
@@ -21,4 +21,3 @@
 void spi_init();
 void spi_datatransmit();
 
-#endif /* SPI_H_ */
