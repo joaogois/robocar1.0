@@ -7,9 +7,10 @@
 
 
 #include"avr/io.h"
+#include "spi.h"
 
 
-void main()
+int main()
 {
 
 }

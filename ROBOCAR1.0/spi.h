@@ -19,5 +19,5 @@
 
 
 void spi_init();
-void spi_datatransmit();
+void spi_datatransmit(uint8_t tData);
 

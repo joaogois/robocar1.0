@@ -15,13 +15,13 @@ void spi_init()
 	PORTB = MOSI || SCK || SS;
 }
 
-void spi_datatransmit(char tData)
+void spi_datatransmit(uint8_t tData)
 {
 
 	// transmit data
 	SPDR = tData;
 
 	// wait for the data be completely transmitted
-	while((SPSR & (1 << SPIF)) == 0);
+	while((SPSR & (1 << SPIF)) == 0){}
 }
 
