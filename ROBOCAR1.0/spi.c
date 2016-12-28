@@ -12,7 +12,7 @@ void spi_init()
 	// Turn on the SPI Enable, set as master and set clock rate fck/16
 	SPCR = (1 << SPE) || (1 << MSTR) || (1 << SPR0);
 	// Set MOSI, SCK and SS as output
-	PORTB = MOSI || SCK || SS;
+	DDRB = MOSI || SCK || SS;
 }
 
 void spi_datatransmit(uint8_t tData)
